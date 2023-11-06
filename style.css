@@ -1,0 +1,65 @@
+body {
+background-color: CCE5FF;
+font-family: 'Times New Roman', Times, serif;
+font-size: medium;
+color:black;
+line-height: 20px;
+}
+
+h1, h2 {
+color:navy ;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: large;
+line-height: normal;
+}
+
+a {
+text-decoration: underline;
+}
+a:hover{
+  color: red;
+  font-style: oblique;
+ }
+
+.dark_knight{
+  height: 200px;
+  width: 200px;
+  border-color: black;
+  border-radius: 25%;
+}
+
+.container{
+  background-color: white;
+  padding: 75px;
+  box-shadow: 0px 10px 30px rgba(38, 163, 146, 0.1);
+  border-radius: 50px;
+  margin: 20px 0px;
+  text-align: center
+}
+
+.card {
+  background: fixed;
+  border: 50px;
+  border-radius: 50px;
+  box-shadow: rgb(120, 90, 52);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 75px;
+  box-shadow: 0px 10px 30px rgba(38, 163, 146, 0.1);
+}
+
+.footer{
+  background-color: rgb(255, 255, 255);
+  padding: 75px;
+  box-shadow: 0px 10px 30px rgba(38, 163, 146, 0.1);
+  border-radius: 50px;
+  margin: 20px 0px;
+  text-align: center
+}
+
+@media (max-width: 960px) {
+  .container{
+    width: 700px;
+  }
+}
